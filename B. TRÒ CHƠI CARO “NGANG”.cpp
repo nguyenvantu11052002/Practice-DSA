@@ -13,12 +13,12 @@ bool check(){
 		if(x[i] == scx){
 			demktcl = 0;
 			demktcan++;
-			maxktcan = max(maxktcan, demktcan);
+			maxktcan = max(maxktcan, demktcan); // dem ki tu can;
 		}
 		else{
 			demktcan = 0;
 			demktcl++;
-			maxktcl = max(demktcl, maxktcl);
+			maxktcl = max(demktcl, maxktcl); // dem ki tu con lai
 		}
 	}
 	if(maxktcan < 5) return false;
